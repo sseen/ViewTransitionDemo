@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AnotherViewController.h"
 
 @interface ViewController ()
 
@@ -19,5 +20,11 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)ckPush:(id)sender {
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    AnotherViewController *modalViewController = [storyBoard instantiateViewControllerWithIdentifier:@"vc"];
+    
+    [self.navigationController pushViewController:modalViewController animated:YES];
+}
 
 @end

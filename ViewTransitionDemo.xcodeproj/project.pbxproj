@@ -13,9 +13,18 @@
 		DCA993E421869C6800DE1670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA993E321869C6800DE1670 /* Assets.xcassets */; };
 		DCA993E721869C6800DE1670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA993E521869C6800DE1670 /* LaunchScreen.storyboard */; };
 		DCA993EA21869C6800DE1670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA993E921869C6800DE1670 /* main.m */; };
+		DCA993F22186A9A700DE1670 /* AlertPresentingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA993F12186A9A700DE1670 /* AlertPresentingAnimator.m */; };
+		DCA993F52186AA0A00DE1670 /* UIColor+CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA993F42186AA0A00DE1670 /* UIColor+CustomColor.m */; };
+		DCA993F82186AAEC00DE1670 /* AlertDismissngAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA993F72186AAEC00DE1670 /* AlertDismissngAnimator.m */; };
+		DCA993FB2186AD3000DE1670 /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA993FA2186AD3000DE1670 /* AnotherViewController.m */; };
+		DCA993FE2186BE8600DE1670 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA993FD2186BE8600DE1670 /* ThirdViewController.m */; };
+		E226C42884A21BE1B0718591 /* libPods-ViewTransitionDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82497CC2713F11BC8CDB4C9D /* libPods-ViewTransitionDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13333949B201A4796F6F0A14 /* Pods-ViewTransitionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewTransitionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViewTransitionDemo/Pods-ViewTransitionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		82497CC2713F11BC8CDB4C9D /* libPods-ViewTransitionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ViewTransitionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73FC4AD8C8A07A4C8AFEF32 /* Pods-ViewTransitionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewTransitionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViewTransitionDemo/Pods-ViewTransitionDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DCA993D721869C6600DE1670 /* ViewTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA993DA21869C6600DE1670 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DCA993DB21869C6600DE1670 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +35,16 @@
 		DCA993E621869C6800DE1670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCA993E821869C6800DE1670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCA993E921869C6800DE1670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCA993F02186A9A700DE1670 /* AlertPresentingAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertPresentingAnimator.h; sourceTree = "<group>"; };
+		DCA993F12186A9A700DE1670 /* AlertPresentingAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertPresentingAnimator.m; sourceTree = "<group>"; };
+		DCA993F32186AA0A00DE1670 /* UIColor+CustomColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColor.h"; sourceTree = "<group>"; };
+		DCA993F42186AA0A00DE1670 /* UIColor+CustomColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColor.m"; sourceTree = "<group>"; };
+		DCA993F62186AAEC00DE1670 /* AlertDismissngAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertDismissngAnimator.h; sourceTree = "<group>"; };
+		DCA993F72186AAEC00DE1670 /* AlertDismissngAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertDismissngAnimator.m; sourceTree = "<group>"; };
+		DCA993F92186AD3000DE1670 /* AnotherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnotherViewController.h; sourceTree = "<group>"; };
+		DCA993FA2186AD3000DE1670 /* AnotherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnotherViewController.m; sourceTree = "<group>"; };
+		DCA993FC2186BE8600DE1670 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		DCA993FD2186BE8600DE1670 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +52,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E226C42884A21BE1B0718591 /* libPods-ViewTransitionDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D41CC2ABDFBDD020CE3F4A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13333949B201A4796F6F0A14 /* Pods-ViewTransitionDemo.debug.xcconfig */,
+				A73FC4AD8C8A07A4C8AFEF32 /* Pods-ViewTransitionDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E5826E4C27BC6734345990F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82497CC2713F11BC8CDB4C9D /* libPods-ViewTransitionDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DCA993CE21869C6600DE1670 = {
 			isa = PBXGroup;
 			children = (
 				DCA993D921869C6600DE1670 /* ViewTransitionDemo */,
 				DCA993D821869C6600DE1670 /* Products */,
+				3D41CC2ABDFBDD020CE3F4A7 /* Pods */,
+				6E5826E4C27BC6734345990F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +106,16 @@
 				DCA993E521869C6800DE1670 /* LaunchScreen.storyboard */,
 				DCA993E821869C6800DE1670 /* Info.plist */,
 				DCA993E921869C6800DE1670 /* main.m */,
+				DCA993F02186A9A700DE1670 /* AlertPresentingAnimator.h */,
+				DCA993F12186A9A700DE1670 /* AlertPresentingAnimator.m */,
+				DCA993F32186AA0A00DE1670 /* UIColor+CustomColor.h */,
+				DCA993F42186AA0A00DE1670 /* UIColor+CustomColor.m */,
+				DCA993F62186AAEC00DE1670 /* AlertDismissngAnimator.h */,
+				DCA993F72186AAEC00DE1670 /* AlertDismissngAnimator.m */,
+				DCA993F92186AD3000DE1670 /* AnotherViewController.h */,
+				DCA993FA2186AD3000DE1670 /* AnotherViewController.m */,
+				DCA993FC2186BE8600DE1670 /* ThirdViewController.h */,
+				DCA993FD2186BE8600DE1670 /* ThirdViewController.m */,
 			);
 			path = ViewTransitionDemo;
 			sourceTree = "<group>";
@@ -78,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCA993ED21869C6800DE1670 /* Build configuration list for PBXNativeTarget "ViewTransitionDemo" */;
 			buildPhases = (
+				317AEECC6B34B8E529471C18 /* [CP] Check Pods Manifest.lock */,
 				DCA993D321869C6600DE1670 /* Sources */,
 				DCA993D421869C6600DE1670 /* Frameworks */,
 				DCA993D521869C6600DE1670 /* Resources */,
+				41D2E77658516F94DDB6300F /* [CP] Embed Pods Frameworks */,
+				DB7F6E748145126E6C975B17 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,13 +188,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		317AEECC6B34B8E529471C18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViewTransitionDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41D2E77658516F94DDB6300F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViewTransitionDemo/Pods-ViewTransitionDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB7F6E748145126E6C975B17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViewTransitionDemo/Pods-ViewTransitionDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCA993D321869C6600DE1670 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA993F52186AA0A00DE1670 /* UIColor+CustomColor.m in Sources */,
+				DCA993F82186AAEC00DE1670 /* AlertDismissngAnimator.m in Sources */,
+				DCA993FE2186BE8600DE1670 /* ThirdViewController.m in Sources */,
 				DCA993DF21869C6600DE1670 /* ViewController.m in Sources */,
 				DCA993EA21869C6800DE1670 /* main.m in Sources */,
+				DCA993F22186A9A700DE1670 /* AlertPresentingAnimator.m in Sources */,
+				DCA993FB2186AD3000DE1670 /* AnotherViewController.m in Sources */,
 				DCA993DC21869C6600DE1670 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +391,7 @@
 		};
 		DCA993EE21869C6800DE1670 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13333949B201A4796F6F0A14 /* Pods-ViewTransitionDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +409,7 @@
 		};
 		DCA993EF21869C6800DE1670 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A73FC4AD8C8A07A4C8AFEF32 /* Pods-ViewTransitionDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
