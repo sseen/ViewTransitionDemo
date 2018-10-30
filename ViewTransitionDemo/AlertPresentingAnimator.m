@@ -25,7 +25,7 @@
     fromView.userInteractionEnabled = NO;
     
     UIView *dimmingView = [[UIView alloc] initWithFrame:fromView.bounds];
-    dimmingView.backgroundColor =   [UIColor customGrayColor];
+    dimmingView.backgroundColor =   [UIColor colorWithWhite:0 alpha:0.5];
     dimmingView.layer.opacity = 0.0;
     
     UIView *toView = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey].view;
