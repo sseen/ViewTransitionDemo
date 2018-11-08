@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F486BB1219475CF00EC63BC /* TweetBotPresentingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F486BB0219475CF00EC63BC /* TweetBotPresentingAnimator.m */; };
 		DCA993DC21869C6600DE1670 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA993DB21869C6600DE1670 /* AppDelegate.m */; };
 		DCA993DF21869C6600DE1670 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA993DE21869C6600DE1670 /* ViewController.m */; };
 		DCA993E221869C6600DE1670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA993E021869C6600DE1670 /* Main.storyboard */; };
@@ -23,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		13333949B201A4796F6F0A14 /* Pods-ViewTransitionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewTransitionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViewTransitionDemo/Pods-ViewTransitionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7F486BAF219475CF00EC63BC /* TweetBotPresentingAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TweetBotPresentingAnimator.h; sourceTree = "<group>"; };
+		7F486BB0219475CF00EC63BC /* TweetBotPresentingAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TweetBotPresentingAnimator.m; sourceTree = "<group>"; };
 		82497CC2713F11BC8CDB4C9D /* libPods-ViewTransitionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ViewTransitionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73FC4AD8C8A07A4C8AFEF32 /* Pods-ViewTransitionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewTransitionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViewTransitionDemo/Pods-ViewTransitionDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DCA993D721869C6600DE1670 /* ViewTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,25 +100,27 @@
 		DCA993D921869C6600DE1670 /* ViewTransitionDemo */ = {
 			isa = PBXGroup;
 			children = (
-				DCA993DA21869C6600DE1670 /* AppDelegate.h */,
-				DCA993DB21869C6600DE1670 /* AppDelegate.m */,
-				DCA993DD21869C6600DE1670 /* ViewController.h */,
-				DCA993DE21869C6600DE1670 /* ViewController.m */,
-				DCA993E021869C6600DE1670 /* Main.storyboard */,
-				DCA993E321869C6800DE1670 /* Assets.xcassets */,
-				DCA993E521869C6800DE1670 /* LaunchScreen.storyboard */,
-				DCA993E821869C6800DE1670 /* Info.plist */,
-				DCA993E921869C6800DE1670 /* main.m */,
-				DCA993F02186A9A700DE1670 /* AlertPresentingAnimator.h */,
-				DCA993F12186A9A700DE1670 /* AlertPresentingAnimator.m */,
-				DCA993F32186AA0A00DE1670 /* UIColor+CustomColor.h */,
-				DCA993F42186AA0A00DE1670 /* UIColor+CustomColor.m */,
 				DCA993F62186AAEC00DE1670 /* AlertDismissngAnimator.h */,
 				DCA993F72186AAEC00DE1670 /* AlertDismissngAnimator.m */,
+				DCA993F02186A9A700DE1670 /* AlertPresentingAnimator.h */,
+				DCA993F12186A9A700DE1670 /* AlertPresentingAnimator.m */,
 				DCA993F92186AD3000DE1670 /* AnotherViewController.h */,
 				DCA993FA2186AD3000DE1670 /* AnotherViewController.m */,
+				DCA993DA21869C6600DE1670 /* AppDelegate.h */,
+				DCA993DB21869C6600DE1670 /* AppDelegate.m */,
+				DCA993E321869C6800DE1670 /* Assets.xcassets */,
+				DCA993E821869C6800DE1670 /* Info.plist */,
+				DCA993E521869C6800DE1670 /* LaunchScreen.storyboard */,
+				DCA993E921869C6800DE1670 /* main.m */,
+				DCA993E021869C6600DE1670 /* Main.storyboard */,
 				DCA993FC2186BE8600DE1670 /* ThirdViewController.h */,
 				DCA993FD2186BE8600DE1670 /* ThirdViewController.m */,
+				7F486BAF219475CF00EC63BC /* TweetBotPresentingAnimator.h */,
+				7F486BB0219475CF00EC63BC /* TweetBotPresentingAnimator.m */,
+				DCA993F32186AA0A00DE1670 /* UIColor+CustomColor.h */,
+				DCA993F42186AA0A00DE1670 /* UIColor+CustomColor.m */,
+				DCA993DD21869C6600DE1670 /* ViewController.h */,
+				DCA993DE21869C6600DE1670 /* ViewController.m */,
 			);
 			path = ViewTransitionDemo;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				DCA993F22186A9A700DE1670 /* AlertPresentingAnimator.m in Sources */,
 				DCA993FB2186AD3000DE1670 /* AnotherViewController.m in Sources */,
 				DCA993DC21869C6600DE1670 /* AppDelegate.m in Sources */,
+				7F486BB1219475CF00EC63BC /* TweetBotPresentingAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +403,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4N44FM69KH;
 				INFOPLIST_FILE = ViewTransitionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -415,6 +422,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4N44FM69KH;
 				INFOPLIST_FILE = ViewTransitionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

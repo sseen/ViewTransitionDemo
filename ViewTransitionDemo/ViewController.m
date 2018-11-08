@@ -8,8 +8,11 @@
 
 #import "ViewController.h"
 #import "AnotherViewController.h"
+#import "AlertDismissngAnimator.h"
+#import "TweetBotPresentingAnimator.h"
+#import "ThirdViewController.h"
 
-@interface ViewController ()
+@interface ViewController ()< UIViewControllerTransitioningDelegate>
 
 @end
 
@@ -26,5 +29,33 @@
     
     [self.navigationController pushViewController:modalViewController animated:YES];
 }
+
+#pragma mark - UIViewControllerTransitioningDelegate
+    
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented
+                                                                  presentingController:(UIViewController *)presenting
+                                                                      sourceController:(UIViewController *)source
+    {
+        return [TweetBotPresentingAnimator new];
+    }
+    
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed
+    {
+        return [AlertDismissngAnimator new];
+}
+
+- (IBAction)ckCenterShow:(id)sender {
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    ThirdViewController *modalViewController = [storyBoard instantiateViewControllerWithIdentifier:@"vc2"];
+    modalViewController.handler = ^{
+        // [self.navigationController pushViewController:modalViewController animated:true];
+    };
+    
+    modalViewController.transitioningDelegate = self;
+    modalViewController.modalPresentationStyle = UIModalPresentationCustom;
+    [self.navigationController presentViewController:modalViewController animated:YES completion:nil];
+    
+}
+
 
 @end
