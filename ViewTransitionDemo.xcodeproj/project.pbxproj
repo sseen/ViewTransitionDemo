@@ -19,6 +19,7 @@
 		DCA993F82186AAEC00DE1670 /* AlertDismissngAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA993F72186AAEC00DE1670 /* AlertDismissngAnimator.m */; };
 		DCA993FB2186AD3000DE1670 /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA993FA2186AD3000DE1670 /* AnotherViewController.m */; };
 		DCA993FE2186BE8600DE1670 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA993FD2186BE8600DE1670 /* ThirdViewController.m */; };
+		DCFE6BAF219540BD0084A71B /* TweetBotDismissingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFE6BAE219540BD0084A71B /* TweetBotDismissingAnimator.m */; };
 		E226C42884A21BE1B0718591 /* libPods-ViewTransitionDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82497CC2713F11BC8CDB4C9D /* libPods-ViewTransitionDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,8 @@
 		DCA993FA2186AD3000DE1670 /* AnotherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnotherViewController.m; sourceTree = "<group>"; };
 		DCA993FC2186BE8600DE1670 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		DCA993FD2186BE8600DE1670 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		DCFE6BAD219540BD0084A71B /* TweetBotDismissingAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TweetBotDismissingAnimator.h; sourceTree = "<group>"; };
+		DCFE6BAE219540BD0084A71B /* TweetBotDismissingAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TweetBotDismissingAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				DCA993F72186AAEC00DE1670 /* AlertDismissngAnimator.m */,
 				DCA993F02186A9A700DE1670 /* AlertPresentingAnimator.h */,
 				DCA993F12186A9A700DE1670 /* AlertPresentingAnimator.m */,
+				DCFE6BAD219540BD0084A71B /* TweetBotDismissingAnimator.h */,
+				DCFE6BAE219540BD0084A71B /* TweetBotDismissingAnimator.m */,
 			);
 			path = animator;
 			sourceTree = "<group>";
@@ -269,6 +274,7 @@
 				DCA993F82186AAEC00DE1670 /* AlertDismissngAnimator.m in Sources */,
 				DCA993FE2186BE8600DE1670 /* ThirdViewController.m in Sources */,
 				DCA993DF21869C6600DE1670 /* ViewController.m in Sources */,
+				DCFE6BAF219540BD0084A71B /* TweetBotDismissingAnimator.m in Sources */,
 				DCA993EA21869C6800DE1670 /* main.m in Sources */,
 				DCA993F22186A9A700DE1670 /* AlertPresentingAnimator.m in Sources */,
 				DCA993FB2186AD3000DE1670 /* AnotherViewController.m in Sources */,

@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "AnotherViewController.h"
-#import "AlertDismissngAnimator.h"
+#import "TweetBotDismissingAnimator.h"
 #import "TweetBotPresentingAnimator.h"
 #import "ThirdViewController.h"
 
@@ -41,7 +41,7 @@
     
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed
     {
-        return [AlertDismissngAnimator new];
+        return [TweetBotDismissingAnimator new];
 }
 
 - (IBAction)ckCenterShow:(id)sender {

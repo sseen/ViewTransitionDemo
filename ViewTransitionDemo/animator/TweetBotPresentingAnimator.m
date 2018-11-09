@@ -51,8 +51,6 @@
         [dimmingView.layer pop_addAnimation:opacityAnimation forKey:@"opacityAnimation"];
     };
     
-    
-    
 //    [toView.layer pop_addAnimation:positionAnimation forKey:@"positionAnimation"];
     [toView.layer pop_addAnimation:scaleAnimation forKey:@"scaleAnimation"];
     
