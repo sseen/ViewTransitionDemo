@@ -100,12 +100,8 @@
 		DCA993D921869C6600DE1670 /* ViewTransitionDemo */ = {
 			isa = PBXGroup;
 			children = (
-				DCA993F62186AAEC00DE1670 /* AlertDismissngAnimator.h */,
-				DCA993F72186AAEC00DE1670 /* AlertDismissngAnimator.m */,
-				DCA993F02186A9A700DE1670 /* AlertPresentingAnimator.h */,
-				DCA993F12186A9A700DE1670 /* AlertPresentingAnimator.m */,
-				DCA993F92186AD3000DE1670 /* AnotherViewController.h */,
-				DCA993FA2186AD3000DE1670 /* AnotherViewController.m */,
+				DCFE6BAB2195327A0084A71B /* animator */,
+				DCFE6BAC219532980084A71B /* vc */,
 				DCA993DA21869C6600DE1670 /* AppDelegate.h */,
 				DCA993DB21869C6600DE1670 /* AppDelegate.m */,
 				DCA993E321869C6800DE1670 /* Assets.xcassets */,
@@ -113,16 +109,36 @@
 				DCA993E521869C6800DE1670 /* LaunchScreen.storyboard */,
 				DCA993E921869C6800DE1670 /* main.m */,
 				DCA993E021869C6600DE1670 /* Main.storyboard */,
-				DCA993FC2186BE8600DE1670 /* ThirdViewController.h */,
-				DCA993FD2186BE8600DE1670 /* ThirdViewController.m */,
-				7F486BAF219475CF00EC63BC /* TweetBotPresentingAnimator.h */,
-				7F486BB0219475CF00EC63BC /* TweetBotPresentingAnimator.m */,
 				DCA993F32186AA0A00DE1670 /* UIColor+CustomColor.h */,
 				DCA993F42186AA0A00DE1670 /* UIColor+CustomColor.m */,
-				DCA993DD21869C6600DE1670 /* ViewController.h */,
-				DCA993DE21869C6600DE1670 /* ViewController.m */,
 			);
 			path = ViewTransitionDemo;
+			sourceTree = "<group>";
+		};
+		DCFE6BAB2195327A0084A71B /* animator */ = {
+			isa = PBXGroup;
+			children = (
+				7F486BAF219475CF00EC63BC /* TweetBotPresentingAnimator.h */,
+				7F486BB0219475CF00EC63BC /* TweetBotPresentingAnimator.m */,
+				DCA993F62186AAEC00DE1670 /* AlertDismissngAnimator.h */,
+				DCA993F72186AAEC00DE1670 /* AlertDismissngAnimator.m */,
+				DCA993F02186A9A700DE1670 /* AlertPresentingAnimator.h */,
+				DCA993F12186A9A700DE1670 /* AlertPresentingAnimator.m */,
+			);
+			path = animator;
+			sourceTree = "<group>";
+		};
+		DCFE6BAC219532980084A71B /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				DCA993DD21869C6600DE1670 /* ViewController.h */,
+				DCA993DE21869C6600DE1670 /* ViewController.m */,
+				DCA993FC2186BE8600DE1670 /* ThirdViewController.h */,
+				DCA993FD2186BE8600DE1670 /* ThirdViewController.m */,
+				DCA993F92186AD3000DE1670 /* AnotherViewController.h */,
+				DCA993FA2186AD3000DE1670 /* AnotherViewController.m */,
+			);
+			path = vc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
