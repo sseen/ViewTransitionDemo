@@ -25,7 +25,7 @@
                               0,
                               248,
                               //CGRectGetWidth(transitionContext.containerView.bounds) - 24.f,
-                              280);
+                              150);
     toView.center = CGPointMake(transitionContext.containerView.center.x, transitionContext.containerView.center.y);
     fromView.center = toView.center;
     toView.layer.cornerRadius = 8;
@@ -35,23 +35,34 @@
     
     POPSpringAnimation *positionAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerPositionY];
     positionAnimation.toValue = @(transitionContext.containerView.center.y - 80);
-    positionAnimation.springBounciness = 5;
+    positionAnimation.springBounciness = 1;
     [positionAnimation setCompletionBlock:^(POPAnimation *anim, BOOL finished) {
         [transitionContext completeTransition:YES];
     }];
     
     POPBasicAnimation *opacityAnimation = [POPBasicAnimation animationWithPropertyNamed:kPOPLayerOpacity];
     opacityAnimation.toValue = @(0.5);
+    [opacityAnimation setCompletionBlock:^(POPAnimation *anim, BOOL finished) {
+        [transitionContext completeTransition:YES];
+    }];
+    
+    POPBasicAnimation *opacityAnimationNotDim = [POPBasicAnimation animationWithPropertyNamed:kPOPLayerOpacity];
+    opacityAnimationNotDim.fromValue = @(0);
+    opacityAnimationNotDim.toValue = @(1);
+    [opacityAnimationNotDim setCompletionBlock:^(POPAnimation *anim, BOOL finished) {
+        
+    }];
     
     POPSpringAnimation *scaleAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerScaleXY];
-    scaleAnimation.springBounciness = 5;
-    scaleAnimation.fromValue = [NSValue valueWithCGPoint:CGPointMake(1.4, 1.4)];
+    scaleAnimation.springBounciness = 1;
+    scaleAnimation.fromValue = [NSValue valueWithCGPoint:CGPointMake(1.2, 1.2)];
     scaleAnimation.completionBlock = ^(POPAnimation *anim, BOOL finished) {
         // [toView.layer pop_addAnimation:scaleAnimation forKey:@"scaleAnimation"];
         [dimmingView.layer pop_addAnimation:opacityAnimation forKey:@"opacityAnimation"];
     };
     
 //    [toView.layer pop_addAnimation:positionAnimation forKey:@"positionAnimation"];
+    [toView.layer pop_addAnimation:opacityAnimationNotDim forKey:@"opacityAnimationNotDim"];
     [toView.layer pop_addAnimation:scaleAnimation forKey:@"scaleAnimation"];
     
 }

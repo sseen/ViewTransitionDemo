@@ -11,6 +11,8 @@
 #import "TweetBotDismissingAnimator.h"
 #import "TweetBotPresentingAnimator.h"
 #import "ThirdViewController.h"
+#import "AlertPresentingAnimator.h"
+#import "AlertDismissngAnimator.h"
 
 @interface ViewController ()< UIViewControllerTransitioningDelegate>
 
