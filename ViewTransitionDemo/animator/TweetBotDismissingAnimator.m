@@ -37,8 +37,8 @@
     
     UIWindow *window = [[[UIApplication sharedApplication] windows] objectAtIndex:0];
     POPBasicAnimation *offscreenAnimation = [POPBasicAnimation animationWithPropertyNamed:kPOPLayerPositionY];
-    offscreenAnimation.duration = 2;
-    offscreenAnimation.beginTime = CACurrentMediaTime() + 0.3;
+    offscreenAnimation.duration = 0.7;
+    offscreenAnimation.beginTime = CACurrentMediaTime() + 0.2;
     offscreenAnimation.fromValue = @(fromVC.view.frame.origin.y + fromVC.view.frame.size.height);
     offscreenAnimation.toValue = @(window.bounds.size.height + fromVC.view.frame.size.height);
     
@@ -52,7 +52,7 @@
     rotationAnim.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
     rotationAnim.fromValue = @(0);
     rotationAnim.beginTime = CACurrentMediaTime();// + 0.1; // 延迟 0.1s
-    rotationAnim.duration = 1;
+    rotationAnim.duration = 0.7;
     rotationAnim.toValue = @(-M_PI);
     CGRect fromRect = fromVC.view.frame;
     fromVC.view.layer.anchorPoint = CGPointMake(1, 1);

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F0D29672197113B00508A35 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0D29662197113B00508A35 /* AlertViewController.m */; };
 		7F486BB1219475CF00EC63BC /* TweetBotPresentingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F486BB0219475CF00EC63BC /* TweetBotPresentingAnimator.m */; };
 		DCA993DC21869C6600DE1670 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA993DB21869C6600DE1670 /* AppDelegate.m */; };
 		DCA993DF21869C6600DE1670 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA993DE21869C6600DE1670 /* ViewController.m */; };
@@ -25,6 +26,8 @@
 
 /* Begin PBXFileReference section */
 		13333949B201A4796F6F0A14 /* Pods-ViewTransitionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewTransitionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViewTransitionDemo/Pods-ViewTransitionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7F0D29652197113B00508A35 /* AlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
+		7F0D29662197113B00508A35 /* AlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
 		7F486BAF219475CF00EC63BC /* TweetBotPresentingAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TweetBotPresentingAnimator.h; sourceTree = "<group>"; };
 		7F486BB0219475CF00EC63BC /* TweetBotPresentingAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TweetBotPresentingAnimator.m; sourceTree = "<group>"; };
 		82497CC2713F11BC8CDB4C9D /* libPods-ViewTransitionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ViewTransitionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +145,8 @@
 				DCA993FD2186BE8600DE1670 /* ThirdViewController.m */,
 				DCA993F92186AD3000DE1670 /* AnotherViewController.h */,
 				DCA993FA2186AD3000DE1670 /* AnotherViewController.m */,
+				7F0D29652197113B00508A35 /* AlertViewController.h */,
+				7F0D29662197113B00508A35 /* AlertViewController.m */,
 			);
 			path = vc;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				DCA993DF21869C6600DE1670 /* ViewController.m in Sources */,
 				DCFE6BAF219540BD0084A71B /* TweetBotDismissingAnimator.m in Sources */,
 				DCA993EA21869C6800DE1670 /* main.m in Sources */,
+				7F0D29672197113B00508A35 /* AlertViewController.m in Sources */,
 				DCA993F22186A9A700DE1670 /* AlertPresentingAnimator.m in Sources */,
 				DCA993FB2186AD3000DE1670 /* AnotherViewController.m in Sources */,
 				DCA993DC21869C6600DE1670 /* AppDelegate.m in Sources */,

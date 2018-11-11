@@ -25,7 +25,7 @@
                               0,
                               248,
                               //CGRectGetWidth(transitionContext.containerView.bounds) - 24.f,
-                              150);
+                              170);
     toView.center = CGPointMake(transitionContext.containerView.center.x, transitionContext.containerView.center.y);
     fromView.center = toView.center;
     toView.layer.cornerRadius = 8;
@@ -35,7 +35,7 @@
     
     POPSpringAnimation *positionAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerPositionY];
     positionAnimation.toValue = @(transitionContext.containerView.center.y - 80);
-    positionAnimation.springBounciness = 1;
+    positionAnimation.springBounciness = 20;
     [positionAnimation setCompletionBlock:^(POPAnimation *anim, BOOL finished) {
         [transitionContext completeTransition:YES];
     }];
@@ -54,7 +54,7 @@
     }];
     
     POPSpringAnimation *scaleAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerScaleXY];
-    scaleAnimation.springBounciness = 1;
+    scaleAnimation.springBounciness = 10;
     scaleAnimation.fromValue = [NSValue valueWithCGPoint:CGPointMake(1.2, 1.2)];
     scaleAnimation.completionBlock = ^(POPAnimation *anim, BOOL finished) {
         // [toView.layer pop_addAnimation:scaleAnimation forKey:@"scaleAnimation"];

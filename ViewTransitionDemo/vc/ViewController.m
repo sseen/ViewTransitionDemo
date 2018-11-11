@@ -13,6 +13,7 @@
 #import "ThirdViewController.h"
 #import "AlertPresentingAnimator.h"
 #import "AlertDismissngAnimator.h"
+#import "AlertViewController.h"
 
 @interface ViewController ()< UIViewControllerTransitioningDelegate>
 
@@ -48,10 +49,10 @@
 
 - (IBAction)ckCenterShow:(id)sender {
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    ThirdViewController *modalViewController = [storyBoard instantiateViewControllerWithIdentifier:@"vc2"];
-    modalViewController.handler = ^{
-        // [self.navigationController pushViewController:modalViewController animated:true];
-    };
+    AlertViewController *modalViewController = [storyBoard instantiateViewControllerWithIdentifier:@"AlertViewController"];
+//    modalViewController.handler = ^{
+//        // [self.navigationController pushViewController:modalViewController animated:true];
+//    };
     
     modalViewController.transitioningDelegate = self;
     modalViewController.modalPresentationStyle = UIModalPresentationCustom;
